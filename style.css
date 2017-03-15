@@ -1,0 +1,406 @@
+/*
+Theme Name: Sparkling Child
+Theme URI: http://colorlib.com/wp/themes/sparkling
+Template: sparkling
+Author: Colorlib
+Author URI: http://colorlib.com/
+Description: Sparkling is a clean minimal and responsive WordPress theme well suited for travel, health, business, finance, portfolio, design, art, photography, personal, ecommerce and any other creative websites and blogs. Developed using Bootstrap 3 that makes it mobile and tablets friendly. Theme comes with full-screen slider, social icon integration, author bio, popular posts widget and improved category widget. Sparkling incorporates latest web standards such as HTML5 and CSS3 and is SEO friendly thanks to its clean structure and codebase. It has dozens of Theme Options based on WordPress Customizer to change theme layout, colors, fonts, slider settings and much more. Theme is also translation and multilingual ready, compatible with WPML and is available in Spanish, French, Dutch, Polish, Russian, German, Brazilian Portuguese, Portuguese (Portugal), Persian (Iranian language), Romanian, Turkish, Bulgarian, Japanese, Lithuanian, Czech, Ukrainian, Traditional Chinese, Simplified Chinese, Indonesian, Estonian, Spanish (Argentina) and Italian. Sparkling is a free WordPress theme with premium functionality and design. Theme is ecommerce ready thanks to its WooCommerce integration. Now theme is optimized to work with bbPress, Contact Form 7, Jetpack, WooCommerce and other popular free and premium plugins. Lately we introduced a sticky/fixed navigation that you can enable or disable via WordPress Customizer.
+Tags: green,light,white,gray,black,one-column,two-columns,right-sidebar,fluid-layout,responsive-layout,photoblogging,left-sidebar,translation-ready,custom-background,custom-colors,custom-menu,featured-images,full-width-template,post-formats,theme-options,threaded-comments
+Version: 2.2.2.1486373496
+Updated: 2017-02-06 09:31:36
+
+*/
+
+a {
+	color:  #2d5b95;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	transition: all 0.1s;
+}
+
+a:hover{
+	color:#9b9b9b !important;
+}
+ 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color:  #2d5b95;
+}
+
+.entry-summary {
+	margin: 0 0 0;
+}
+
+.page-links {
+	margin: 0 0 0;
+}
+
+.main-content-area {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.entry-title {
+	margin-bottom: 0px;
+}
+
+.entry-title a:hover {
+	color: #c61e42;
+}
+
+hr.section-divider {
+	margin-top: 20px;
+ 	margin-bottom: 20px;
+}
+
+.page-links span { 
+	background-color: #c61e42;
+	padding: 2px 2px;
+}
+
+.page-links a span {
+	color: #c61e42;
+ 	-webkit-transition: all 0.1s;
+ 	-moz-transition: all 0.1s;
+ 	-o-transition: all 0.1s;
+ 	transition: all 0.1s;
+}
+
+.page-links a:hover span {
+	background-color: #c61e42;
+	border: 1px solid #c61e42; 
+}
+
+.pagination li a {
+	color: #c61e42;
+}
+
+.pagination li:hover a {
+	color: #c61e42;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+	background-color: #c61e42;
+	border-color: #c61e42;
+}
+
+.single-featured {
+	-webkit-transition: opacity 0.1s linear;
+	-moz-transition: opacity 0.1s linear;
+	-o-transition: opacity 0.1s linear;
+	transition: opacity 0.1s linear;
+}
+
+#secondary .widget {
+	margin-bottom: 10px;
+	color: #444444;
+}
+
+#secondary .widget > h3 {
+	color: #444444;
+}
+
+#secondary .widget a {
+	color: #c61e42;
+}
+
+.not-found-widget {
+	margin-top: 10px;
+}
+
+@media (max-width: 930px) {
+    #secondary {
+        clear: both;
+    }
+}
+
+#secondary .widget .post-content a {
+	color:  #c61e42;
+}
+ 
+#secondary .widget .post-content a:hover {
+	color: #c61e42;
+}
+
+.tagcloud a:hover {
+	background-color: #c61e42;
+	border-color: #c61e42;
+}
+
+.btn-default, .label-default, .woocommerce #respond input#submit,
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt,
+.woocommerce button.button.alt, .woocommerce input.button.alt {
+	background-color: #c61e42;
+	border-color: #c61e42;
+	-webkit-transition: background-color 0.1s linear;
+	-moz-transition: background-color 0.1s linear;
+	-o-transition: background-color 0.1s linear;
+	transition: background-color 0.1s linear;
+}
+
+button, .button {
+	background-color: #c61e42;
+}
+
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+ 
+.infinite-scroll .paging-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+#infinite-handle span {
+	color: #c61e42; 
+}
+
+#infinite-handle span:hover {
+	background-color: #c61e42;
+}
+
+.page-template-page-homepage-php .carousel {
+	margin-top: -40px;
+}
+
+@media (max-width: 930px) {
+	.pull-right {
+		float: none !important;
+	}
+	.pull-left {
+		float: none !important;
+	}
+	.flex-caption {
+		display: none;
+	}
+}
+
+.post-navigation a,
+.paging-navigation a {
+	border: 1px solid #DADADA;
+	background-color: #FFF;
+	padding: 8px 14px;
+	font-size: 12px;
+	border-radius: 4px;
+	display: block;
+	margin: 0 0 0;
+	overflow: hidden;
+}
+
+.post-navigation a:hover,
+.paging-navigation a:hover {
+	color: #FFF;
+	background: #c61e42;
+	text-decoration: none;
+}
+ 
+.paging-navigation {
+	text-transform: uppercase;
+}
+ 
+.post-navigation .nav-previous,
+.paging-navigation .nav-previous {
+	float: left;
+}
+ 
+.post-navigation .nav-next,
+.paging-navigation .nav-next  {
+	float: right;
+	text-align: right;
+}
+
+.navbar-default .navbar-nav > li > a {
+	line-height: 30px;
+}
+ 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a{
+	font-weight: bold;
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: white !important;
+	color: black !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	background-color: #c61e42;
+}
+
+.dropdown-menu > li > a:hover{
+	color:white !important;
+}
+
+
+@media (max-width: 845px) {
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+		background-color: #c61e42;
+	}
+}
+ 
+
+.navbar-default .navbar-nav .current-menu-ancestor a.dropdown-toggle {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color:  #fff;
+}
+
+@media (min-width: 845px) {
+	ul.nav li.dropdown:hover > ul.dropdown-menu {
+		display: block;
+	}
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus{
+	background-color: #c61e42;
+}
+
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 845px) {
+	.nav.navbar-nav {
+		float: none;
+	}
+	.navbar > .container .navbar-brand {
+		margin: 0;
+	}
+	.navbar-default .navbar-nav > li > a {
+		line-height: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+.navigation .wp-pagenavi-pagination span.current,
+.navigation .wp-pagenavi-pagination a:hover {
+	background-color: #c61e42;
+	border-color: #c61e42;
+}
+
+.pagination>li>a,
+.pagination>li>span,
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+	color: #c61e42;
+}
+
+@media(max-width:845px){
+	.post-inner-content {
+		padding: 5px 5px;
+	}
+	.comment-list .children {
+		padding-left: 10px;
+	}
+}
+
+#image-navigation .nav-previous a:hover,
+#image-navigation .nav-next a:hover{
+	background-color: #c61e42;
+}
+
+.scroll-to-top:hover {
+	background: #c61e42;
+}
+
+@media (max-width: 845px) {
+	.site-info, .copyright {
+		text-align: center;
+	}
+	.footer-nav.nav, .copyright {
+		float: none;
+	}
+}
+
+#menu-social li a[href*="mailto"]:hover {
+	background-color: #c61e42 !important;
+}
+
+@media (max-width: 845px) {
+	.site-branding {
+		text-align: center;
+	}
+	.side-pull-left .main-content-inner, .side-pull-right .main-content-inner{
+		float: none;
+	}
+}
+
+.cfa-text{
+	color: #c61e42;
+}
+
+.cfa-button {
+	color: #c61e42;
+	border-color: #c61e42;
+}
+
+.cfa-button a {
+	color: #c61e42;
+}
+
+.cfa-button:hover { 
+	background-color: #c61e42;
+}
+
+@media (max-width: 845px) {
+	.cfa {
+		padding: 0 0 20px;
+	}
+	.cfa-button {
+		padding: 10px 16px;
+		margin-top: 10px;
+	}
+}
+
+#wpadminbar {
+  opacity: 0.8;
+}
+
+.post-inner-content {
+  padding: 15px 15px;
+}
+
+.well {
+  padding: 20px;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-nav li a {
+  padding: 10px 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;}
+
+.navbar-default .navbar-toggle {
+  border-color: #fff;}
